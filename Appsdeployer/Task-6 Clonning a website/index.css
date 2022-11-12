@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+/* CSS for NavBar section */
+nav{
+  position: fixed;
+  display: flex;
+  height: 62px;
+  width: 100%;
+  background: rgb(237, 236, 236);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 98px 0 100px;
+  flex-wrap: wrap;
+}
+nav img{
+    width: 166px;
+    cursor: pointer;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 13px;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    color: #44a4ab;;
+}
+nav ul li .contact{
+    background: #43cea2;
+    border-radius: 2rem;
+    color: white;
+    background: -webkit-linear-gradient(45deg,#43cea2 0%,#185a9d 100%);
+}
+nav ul li .contact:hover{
+    color: white;
+    font-weight: bold;
+}
+nav .menu-btn i{
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+/* CSS for second section */
+
+.second-section{
+  height: 385px;
+  background: url(https://apexmoon.com/img/past-sales-bg2.jpg);
+}
+.second-section .center{
+  padding-top: 104px;
+  color: white;
+}
+.second-section .center span{
+  font-size: 15px;
+}
+
+.second-section .center{
+text-align: center;
+}
+
+.second-section .center h3{
+background: #43cea2;
+  width: fit-content;
+  padding-top: 9px;
+  padding-right: 19px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  border-radius: 2rem;
+  background: -webkit-linear-gradient(45deg,#43cea2 0%,#185a9d 100%);
+  margin-top: 20px;
+  margin-left: 606px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Third Section CSS Styling */
+
+.third-section .row{
+  display: flex;
+  padding-left: 19rem;
+  padding-right: 19rem;
+  justify-content: space-between;
+}
+
+.container-flex{
+  background: rgb(237, 236, 236);
+}
+.container-flex .row .col{
+  background: white;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  border-radius: 2rem;
+  padding-top: 3.3rem;
+  padding-bottom: 3.3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.container-flex .COL{
+  width: fit-content;
+}
+.container-flex .COL .col{
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
+}
+.container-flex .row .col h1{
+  padding-bottom: 40px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.container-flex .row .col span{
+  background: white;
+  border: 2px solid #0a79a9;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 13px;
+  font-size: 13px;
+}
+.container-flex .row .col span:hover{
+  color: white;
+  background: #43cea2;
+  background: -webkit-linear-gradient(45deg,#43cea2 0%,#185a9d 100%);
+  border: none;
+}
+
+
+/* Forth section CSS Styling */
+
+.forth-section{
+  background: #43cea2;
+  background: -webkit-linear-gradient(45deg,#43cea2 0%,#185a9d 100%);
+  padding: 70px;
+  text-align: center;
+}
+.forth-section p{
+  color: #fff;
+}
+.forth-section h4{
+  background: black;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 2rem;
+  color: white;
+  width: fit-content;
+  margin-left: 542px;
+  margin-bottom: 45px;
+}
+.last-section .imgsec{
+  text-align: center;
+  padding-bottom: 70px;
+}
+.last-section .imgsec img{
+  margin-top: 50px;
+  width: 140px;
+}
+.last-section .sec{
+  display: flex;
+  justify-content: space-between;
+}
+.last-section{
+  padding: 0 30px;
+  background: url(https://apexmoon.com/img/footer-bg.png);
+  padding-top: 56px;
+  margin-top: -112px;
+  background-size: cover;
+}
+
+.last-section .sec ul{
+  list-style: none;
+}
+.last-section .sec ul li{
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.last-section .sec ul li:hover{
+  color: #43cea2;
+  cursor: pointer;
+}
+.last-section .sec ul li .fa{
+  font-size: 17px;
+}
+.last-section .sec ul li .fa:hover{
+  color: #0077b5;
+}
+.last-section .sec ul li .fa:hover{
+  color: #0077b5;
+}
+/* .last-section .sec .partners{
+  display: flex;
+  justify-content: space-between;
+}
+.last-section .sec .partners img{
+
+} */
+.footer{
+  background: #272d3b;
+  height: 24px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Media Queries */
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+
+@media (max-width: 920px) {
+  /* .container-flex .row .col span:hover{
+    color: white;
+    background: #43cea2;
+    background: -webkit-linear-gradient(45deg,#43cea2 0%,#185a9d 100%);
+    border: none;
+  } */
+  .last-section{
+    background: none;
+  }
+  .container-flex .COL{
+    margin-left: -10px;
+  }
+  .container-flex .COL .col{
+    padding-left: 79px;
+    padding-right: 77px;
+  }
+
+  .second-section .center{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .last-section .imgsec{
+    padding-top: 40px;
+  }
+  
+  .second-section .center h3{
+    margin-left: 125px;
+  }
+  .forth-section h4{
+    margin-left: 56px;
+    font-size: 12px;
+  }
+  .last-section .sec{
+    display: block;
+    text-align: center;
+  }
+  .last-section .sec .sec3{
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .last-section .sec .sec4{
+    margin-left: 13px;
+  }
+  .last-section .sec .sec1, .sec2, .sec3, .sec4{
+    margin-left: 0px;
+  }
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 48px;
+    left: -100%;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 89%;
+    margin: 11px 0;
+
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  }
+  .second-section .center h3{
+    font-size: 10px;
+  }
+}
+

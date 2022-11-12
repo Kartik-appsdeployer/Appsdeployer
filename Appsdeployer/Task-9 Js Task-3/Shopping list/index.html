@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <div class="container-fluid pt-5">
+        <div class="mb-5 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="table-responsive">
+                        <table class="table" id="myTable">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Item's Name</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th class="text-right"><span id="amount" class="amount">Amount for this item</span></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="Tabla.png">
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td>Tabla</td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" value="0" class="qty form-control">
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="5000" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">&#x20B9 <span id="amount" class="amount">0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="dholak.png">
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td>Dholak</td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" value="0" class="qty form-control">
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="2000" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">&#x20B9 <span id="amount" class="amount">0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="Guitar.jpg">
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td>Guitar</td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" value="0" class="qty form-control">
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="6000" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">&#x20B9 <span id="amount" class="amount">0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="Chair.jpeg">
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td>Chair</td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" value="0" class="qty form-control">
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="1000" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">&#x20B9 <span id="amount" class="amount">0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="StudyTable.png">
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td>Table</td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" value="0" class="qty form-control">
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="3000" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">&#x20B9 <span id="amount" class="amount">0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="product-img">
+                                            <div class="img-prdct">
+                                                <img src="Harmonium.png">
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td>Harmonium</td>
+                                    <td>
+                                        <div class="button-container">
+                                            <button class="cart-qty-plus" type="button" value="+">+</button>
+                                            <input type="text" name="qty" min="0" value="0" class="qty form-control">
+                                            <button class="cart-qty-minus" type="button" value="-">-</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="text" value="8000" class="price form-control" disabled>
+                                    </td>
+                                    <td align="right">&#x20B9 <span id="amount" class="amount">0</span></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="4"></td>
+                                    <td align="right"><strong>Total = &#x20B9 <span id="total" class="total">0</span></strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

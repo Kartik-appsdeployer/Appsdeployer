@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 647px;
+    background: rgb(206, 193, 224);
+    font-family: 'Poppins', sans-serif;
+}
+.Scores{
+    height: 10vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.Scores h1{
+    font-size: 20px;
+}
+.Scores p{
+    text-align: center;
+}
+.middleSec{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+    align-items: center;
+    justify-content: space-around;
+}
+.middleSec h1{
+    font-size: 30px;
+    margin-bottom: 31px;
+}
+.middleSec button{
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Options button{
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content h2{
+    margin-bottom: 33px;
+    text-align: center;
+}
+.Images, .Options{
+    display: flex;
+    justify-content: space-between;
+}
+.Images .Player, .Computer{
+    width: 90px;
+    border-radius: 50%;
+    
+    background-color: rgb(206, 193, 224);
+}
+.Options{
+    margin-top: 40px;
+}
+.Computer{
+    transform: rotateY(180deg);
+}
+div .fadeOut{
+    opacity: 0;
+    pointer-events: none;
+}
+div .fadeIn{
+    opacity: 1;
+    pointer-events: all;
+}

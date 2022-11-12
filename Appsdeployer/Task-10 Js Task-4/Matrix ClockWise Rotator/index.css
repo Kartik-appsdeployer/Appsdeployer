@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    background: rgb(183, 183, 183);
+    height: 650px;
+}
+.context{
+    position: absolute;
+    background: rgb(28,128,108);
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 479px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 62px;
+    color: white;
+    background: linear-gradient(90deg, rgba(28,128,108,1) 0%, rgba(116,193,147,1) 45%, rgba(102,237,222,1) 100%, rgba(9,114,177,1) 100%);
+}
+.context .row1, .row2, .row3{
+    display: flex;
+    font-size: 42px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+.container button:hover{
+    background: linear-gradient(90deg, rgba(28,128,108,1) 0%, rgba(116,193,147,1) 45%, rgba(102,237,222,1) 100%, rgba(9,114,177,1) 100%);
+    cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .container{
+    width: 100%;
+    height: 738px;
+    padding-left: 10px;
+  }
+  .context{
+    margin-left: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 62px;
+    width: 337px;
+    margin-top: 164px;
+  }
+}

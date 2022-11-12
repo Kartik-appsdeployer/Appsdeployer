@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    height: 645px;
+    width: 100%;
+    position: absolute;
+}
+.center-content label{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.center-content input{
+    background: #d5dbeb;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 18px;
+    border: 0.5p;
+    border: 0.5px solid;
+    text-align: center;
+}
+.container h2{
+    position: relative;
+    bottom: 650px;
+    margin-left: 358px;
+    margin-top: 100px;
+    font-size: 63px;
+}
+
+.container img{
+    height: 645px;
+    width: inherit;
+}
+.input-div{
+    margin-bottom: 40px;
+}
+.center-content{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 650px;
+    background: #d7e0e0;
+    width: fit-content;
+    padding-left: 162px;
+    padding-right: 161px;
+    border-radius: 2rem;
+    border: 0.5px solid;
+    margin-left: 416px;
+    margin-top: 30px;
+    padding-top: 13px;
+}
+@media screen and (max-width: 700px){
+    .container{
+        height: 2954px;
+        width: 138%;
+    }
+    .container img{
+        width: 260%;
+        height: inherit;
+    }
+    .center-content{
+        text-align: center;
+        margin-left: 73px;
+        margin-bottom: 0;
+        padding: 260px;
+    }
+    .container h2{
+        margin-left: 160px;
+        width: 953px;
+        text-align: center;
+        margin-top: -1876px;
+        font-size: 92px;
+        padding-bottom: 120px;
+    }
+    .center-content label{
+        font-size: 84px;
+    }
+    .center-content input{
+        font-size: 50px;
+    }
+}

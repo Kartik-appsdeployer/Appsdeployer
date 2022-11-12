@@ -1,0 +1,292 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    background: #a8d741;
+    min-height: 600px;
+    margin-top: 96px;
+    border-radius: 2rem;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-bottom: 120px;
+}
+.container h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2.2rem;
+}
+.container h1{
+    text-align: center;
+    font-size: 4.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+.container h5{
+    text-align: center;
+    background: #232323;
+    width: 120px;
+    margin-left: 521px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    padding: 1rem 2.6rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 100px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.container h5:hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+.container .box{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: -24px;
+    font-size: 25px;
+}
+.container p{
+    color: black;
+    text-align: center;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+.works{
+    background: black;
+    margin-left: 29px;
+    margin-right: 29px;
+    min-height: 800px;
+    border-radius: 2rem;
+}
+.works h2{
+    color: white;
+    padding-top: 40px;
+    padding-left: 37px;
+    font-size: 2.2rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+}
+.works .photo{
+    background: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 555px;
+    display: inline-block;
+    border-radius: 2rem;
+    min-height: 700px;
+    margin-bottom: 40px;
+}
+.works .photo .subscribe:hover{
+    background: #a8d741;
+}
+.works .photo .moreInfo:hover{
+    background: white;
+}
+
+.about{
+    display:inline-block;
+}
+.vl{
+    border-left: 1px solid black;
+    height: 160px;
+    margin-top: 181px;
+    margin-left: 164px;
+}
+.formation{
+    margin-top: 155px;
+    padding-left: 1rem;
+}
+.formation p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.professional{
+    background: #a8d741;
+    min-height: 500px;
+    margin-left: 29px;
+    margin-right: 29px;
+    border-radius: 2.2rem;
+}
+.professional .blocks{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    
+}
+
+.seperate{
+    background-color: grey;
+    min-height: 500px;
+    margin-left: 29px;
+    margin-right: 29px;
+    border-radius: 2.2rem;
+}
+.our-team{
+    background-color: #a8d741;
+    min-height: 500px;
+    margin-left: 29px;
+    margin-right: 29px;
+    border-radius: 2.2rem;
+}
+.our-team .team{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+}
+.our-team .team .span{
+    margin-left: 36px;
+    background-color: #a8d741;
+    padding: 11px;
+    border-radius: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+.action{
+    background: #a8d741;
+    min-height: 670px;
+}
+.action h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    padding-top: 100px;
+    margin-top: 135px;
+}
+.action .video{
+    background: white;
+    min-height: 100px;
+    padding: 0;
+    border-radius: 2rem;
+    width: 700px;
+    height: 350px;
+    text-align: center;
+    margin-left: 310px;
+}
+.partners .multipartners .first1, .second1, .third1{
+    background: #eeeeee;
+    width: 400px;
+    height: 400px;
+    border-radius: 2rem;
+    margin-top: 100px;
+}
+
+.partners .multipartners .first1 h3:hover{
+    background: white;
+}
+.partners .multipartners .second1 h3:hover{
+    background: white;
+}
+.partners .multipartners .third1 h3:hover{
+    background: white;
+}
+.partners .multipartners{
+    display: flex;
+    justify-content: space-between;
+}
+.review{
+    background: #eeeeee;
+    min-height: 600px;
+    border-radius: 2rem;
+    margin: 28px;
+}
+.review .part{
+    display: flex;
+    justify-content: space-between;
+}
+.review .part .content1 p{
+    margin-top: 166px;
+    padding-left: 45px;
+    color: #353535;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.review .part .content2 img{
+    margin: 40px;
+    width: 568px;
+    border-radius: 2rem;
+}
+
+.contacts .material .contact1, .contact2{
+    background: #eeeeee;
+    width: 625px;
+    height: 300px;
+    border-radius: 2rem;
+    margin-top: 100px;
+}
+.contacts .material .contact1, .contact2 h1{
+    text-align: center;
+}
+
+.contacts .material{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin-top: 0px;
+}
+.message{
+    background: #a8d741;
+    min-height: 574px;
+    width: 740px;
+    margin-left: 323px;
+    border-radius: 2rem;
+}
+.message .nameEmail{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.message .nameEmail .name input{
+    width: 270px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 20px;
+}
+.message .nameEmail .email input{
+    margin-left: -225px;
+    width: 270px;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 20px;
+}
+.message .site input{
+    padding: 20px;
+    border-radius: 0.5rem;
+    border: none;
+    width: 92%;
+}
+
+.message .message1 input{
+    padding: 20px;
+    border-radius: 0.5rem;
+    border: none;
+    width: 92%;
+    height: 21px;
+    padding-bottom: 163px;
+}
+.navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.map .embed .map1{
+    height: 432px;
+    margin-top: 100px;
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}

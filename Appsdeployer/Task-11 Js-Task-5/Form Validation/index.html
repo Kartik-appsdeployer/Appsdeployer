@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <form>
+      <h1>Validate Your Form</h1>
+      <div class="input-group">
+        <label>Username</label>
+        <input type="text" placeholder="Enter your user name" id="username" onkeyup="NameValidation()">
+        <span id="UserError"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Contact Number</label>
+        <input type="text" placeholder="Contact Number" id="phone" onkeyup="ValidatePhone()">
+        <span id="PhoneError"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email Address" id="email" onkeyup="ValidateEmail()">
+        <span id="EmailError"></span>
+      </div>   
+
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" id="pass" onkeyup="ValidatePassword()">
+        <span id="PassError"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" id="cpass" onkeyup="ValidateCPassword()">
+        <span id="CPassError"></span>
+      </div>
+
+    <button onclick="return FormValidation()">Submit</button>
+   
+  </form>
+
+
+  
+  </div>
+   <script src="index.js"></script>
+</body>
+</html>

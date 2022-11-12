@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(28,70,128);
+    background: linear-gradient(90deg, rgba(28,70,128,1) 0%, rgba(86,129,168,1) 48%, rgba(102,172,237,1) 100%, rgba(9,114,177,1) 100%);
+}
+.container{
+    padding-top: 170px;
+}
+.container h1{
+    font-size: 50px;
+}
+
+.container .centerdiv .timing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.container .timing .time{
+    padding: 40px;
+}
+.container .timing .time h2{
+    padding-bottom: 10px;
+}
+.container .timing .time h3{
+    font-weight: bold;
+}
+
+.container .centerdiv{
+    background: rgb(28,128,108);
+    padding: 51px;
+    background: linear-gradient(90deg, rgba(28,128,108,1) 0%, rgba(116,193,147,1) 45%, rgba(102,237,222,1) 100%, rgba(9,114,177,1) 100%);
+    width: fit-content;
+    margin-left: 340px;
+    border-radius: 2rem;
+    border: 1px solid black;
+    box-shadow: rgb(0 0 0 / 35%) 0 5px 15px;
+}

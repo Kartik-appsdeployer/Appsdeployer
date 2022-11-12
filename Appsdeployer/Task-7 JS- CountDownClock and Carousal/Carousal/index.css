@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+#feedbackArea{
+    padding: 10px;
+    height: 610px;
+}
+#feedbackArea .container{
+    padding: 10px;
+}
+.Box{
+    padding: 66px;
+    position: relative;
+    display: block;
+    background: #cdbcee;
+    color: black;
+    width: 260px;
+    box-shadow: rgb(0 0 0 / 35%) 0 5px 15px;
+    margin: 47px 0;
+    border-radius: 40px;
+}
+.Box h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.Box .content{
+    color: #262626;
+}
+.Box .Img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.Box .Img img{
+     width: 100%;
+     height: auto;
+     border-radius: 50%;
+}
+#feedbackArea .owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#feedbackArea .owl-prev,
+#feedbackArea .owl-next{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #262626;
+    border-radius: 50%;
+    text-align: center;
+    background: white;
+    position: absolute;
+}
+#feedbackArea .owl-prev{
+    left: -40px;
+    top: -30px;
+}
+#feedbackArea .owl-next{
+    right: -20px;
+    top: -30px;
+}
+@media only screen and (max-width: 991px){
+    .owl-nav{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 767px){
+    .owl-nav{
+        display: none;
+    }
+    .Box{
+        text-align: center;
+    }
+}
